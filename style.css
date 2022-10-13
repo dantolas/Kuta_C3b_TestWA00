@@ -5,3 +5,46 @@ header h1{
 body{
     font-family: 'Alkalami', serif;
 }
+
+.navigation ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid_item01{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+.grid_item02{
+    border: 1px solid black;
+    background-color: cornsilk;
+    text-align: center;
+}
+.grid_item03{
+    border: 1px solid black;
+    background-color: darkturquoise;
+    text-align: center;
+}
+.grid_item04{
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+}
+.grid_item05{
+    border: 1px solid black;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+.grid_item06{
+    border: 1px solid black;
+    background-color: lightskyblue;
+    text-align: center;
+}
